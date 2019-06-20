@@ -1,0 +1,4 @@
+const express = require("express"); // constante 
+var app = express(); //cria uma instancia - uma cópia do framework express
+
+app.listen(8082); //sempre deve ser a ultima função do código
